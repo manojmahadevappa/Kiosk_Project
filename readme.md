@@ -2,4 +2,6 @@
 
 <p id="description">This is an interactive kiosk system developed for commercial usage</p>
 
-<h2>🚀 Demo</h2> 
+<h1>Authors</h1>
+<h3>Manoj M</h3>
+<h3>Suhas Kuthnikar</h3>
