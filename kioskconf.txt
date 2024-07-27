@@ -1,0 +1,32 @@
+connection=wired
+dhcp=yes
+browser=firefox
+touchscreen_calibration="Weida Hi-Tech CoolTouchR System " "libinput Calibration Matrix" 1.006690 0.006002 -0.010129 0.008158 1.009483 -0.005814 0.000000 0.000000 1.000000 
+homepage=https://project-kiosk.vercel.app
+hostname=SDC-kiosk
+allow_icmp_protocol=yes
+hide_mouse=yes
+disable_navigation_bar=yes
+kiosk_config=https://project-kiosk.vercel.app/kioskconf.txt
+onscreen_buttons_position=bottom
+onscreen_buttons=back forward home refresh 
+scheduled_action=Monday-18:30 Tuesday-18:30 Wednesday-18:30 Thursday-18:30 Saturday-14:30 Sunday-18:30 action:shutdown
+allow_popup_windows=yes
+removable_devices=yes
+screen_settings=DP3:1920x1080*:60.00:normal:normal:normal
+screensaver_idle=3
+shutdown_menu=reboot shutdown 
+screensaver_archive_update=30
+screensaver_archive=http://project-kiosk.vercel.app/assets/Images/screensaver.zip
+default_sound_card=0.0
+volume_level=99%
+timezone=Asia/Kolkata
+virtual_keyboard=yes
+wallpaper=https://project-kiosk.vercel.app/assets/Images/banner.jpg
+wake_on_lan=yes
+disable_zoom_controls=yes
+zRAM=15%
+additional_components=uefi.zip 
+
+   
+
